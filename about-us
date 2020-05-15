@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Avivon - Business Consulting & Finance HTML5 Template">
+    <meta name="keywords" content="	advisor, business, consultant, consulting, corporate, creative, finance, financial, firm, insurance, trader, trading , html5">
+    <title>Avivon - Pure Business Consulting & Finance HTML5 Template</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnificpopup.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <!-- endinject -->
+</head>
+<body>
+<!-- page preloader -->
+<div id="loading-area">
+    <div class="three col">
+        <div class="loader" id="loader-1"></div>
+    </div>
+</div><!-- end loading -->
+
+<div class="body-overlay"></div><!-- end body-overlay -->
+<div class="offcanvas-menu">
+    <div class="menu__close"></div><!-- end menu__close -->
+    <ul class="off__menu">
+        <li class="menu__title-only">home <i class="fas fa-angle-down"></i></li>
+        <li><a href="index.html">home 01</a></li>
+        <li><a href="index2.html">home 02</a></li>
+        <li><a href="index3.html">home 03</a></li>
+        <li class="menu__title-only">services <i class="fas fa-angle-down"></i></li>
+        <li><a href="service1.html">services 01</a></li>
+        <li><a href="service2.html">services 02</a></li>
+        <li><a href="single-service.html">single service</a></li>
+        <li class="menu__title-only">pages <i class="fas fa-angle-down"></i></li>
+        <li><a href="about-us1.html">about us 01</a></li>
+        <li><a href="about-us2.html">about us 02</a></li>
+        <li><a href="our-mission.html">our mission</a></li>
+        <li><a href="our-history.html">our history</a></li>
+        <li><a href="our-partnership.html">partnership</a></li>
+        <li><a href="error-page-404.html">error 404 page</a></li>
+        <li class="menu__title-only">cases <i class="fas fa-angle-down"></i></li>
+        <li><a href="cases1.html">cases 01</a></li>
+        <li><a href="cases2.html">cases 02</a></li>
+        <li><a href="single-cases.html">single case</a></li>
+        <li class="menu__title-only">blog <i class="fas fa-angle-down"></i></li>
+        <li><a href="blog-post.html">blog post</a></li>
+        <li><a href="single-blog.html">single blog</a></li>
+        <li class="menu__title-only">contact <i class="fas fa-angle-down"></i></li>
+        <li><a href="contact.html">contact us</a></li>
+    </ul>
+</div><!-- end offcanvas-menu -->
+
+<!-- ================================
+      START MENU AREA
+================================= -->
+<section class="menu-area">
+    <div class="top-menu-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menu-full-width">
+                        <div class="logo-box">
+                            <div class="site-open">
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                            </div><!-- end site-open -->
+                            <div class="logo">
+                                <a href="index.html" title="Avivon"><img src="images/logo.png" alt="logo"></a>
+                            </div><!-- end logo -->
+                        </div><!-- end logo-box -->
+                        <div class="main-menu">
+                            <nav class="menu__wrapper">
+                                <ul class="dropdown-main">
+                                    <li>
+                                        <a href="#home">home</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="index.html">home 01</a></li>
+                                                <li><a href="index2.html">home 02</a></li>
+                                                <li><a href="index3.html">home 03</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="#">services</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="service1.html">services 01</a></li>
+                                                <li><a href="service2.html">services 02</a></li>
+                                                <li><a href="single-service.html">single service</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="#">pages</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="about-us1.html">about us 01</a></li>
+                                                <li><a href="about-us2.html">about us 02</a></li>
+                                                <li><a href="our-mission.html">our mission</a></li>
+                                                <li><a href="our-history.html">our history</a></li>
+                                                <li><a href="our-partnership.html">partnership</a></li>
+                                                <li><a href="error-page-404.html">error 404 page</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="#">cases</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="cases1.html">cases 01</a></li>
+                                                <li><a href="cases2.html">cases 02</a></li>
+                                                <li><a href="single-cases.html">single case</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="#">blog</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="blog-post.html">blog post</a></li>
+                                                <li><a href="single-blog.html">single blog</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">contact</a>
+                                    </li>
+                                </ul>
+                            </nav><!-- end menu__wrapper -->
+                            <div class="logo-right-button">
+                                <div class="lang-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/flag.jpg" alt="English">
+                                                english
+                                                <i class="fas fa-caret-down"></i>
+                                            </a>
+                                            <div class="lang-drop-item">
+                                                <a href="#">
+                                                    <img src="images/flag.jpg" alt="English">
+                                                    english
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/flag2.jpg" alt="Usa">
+                                                    usa
+                                                </a>
+                                                <a href="#">
+                                                    <img src="images/flag3.jpg" alt="France">
+                                                    france
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div><!-- end lang-dropdown -->
+                                <div class="contact-para">
+                                    <p>+ 888 999 0000</p>
+                                    <span class="fontello icon-phone-call phone-call"></span>
+                                </div><!-- end contact-para -->
+                            </div><!-- end logo-right-button -->
+                        </div><!-- end main-menu -->
+                    </div><!-- end menu-full-width -->
+                </div><!-- end col-log-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end top-menu-area -->
+</section><!-- end menu-area -->
+<!-- ================================
+        END MENU AREA
+================================= -->
+
+<!--================================
+           START BANNER AREA
+=================================-->
+<section class="trusted-area breadcrumb-area text-center">
+    <div class="trusted-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trusted-content">
+                        <div class="trusted__title">
+                            <ul class="bread__rumb-item">
+                                <li class="active-item"><a href="index.html">home</a></li>
+                                <li class="active-item">pages</li>
+                                <li>about</li>
+                            </ul>
+                            <h2 class="trusted__title-title">about style 1</h2>
+                        </div><!-- end trusted__title -->
+                    </div><!-- end trusted-content -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end trusted-fluid -->
+</section><!-- end trusted-area -->
+ <!--================================
+          END BANNER AREA
+=================================-->
+
+<!--================================
+          START THINK AREA
+=================================-->
+<section class="think-area responsive-content area-padding">
+    <div class="think-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="avivon-heading">
+                        <h2 class="avivon__title">
+                            we offer marketing and
+                            consulting services for
+                            businesses</h2>
+                        <p class="avivon__desc offer-title2 mt-40px mb-35px">
+                            tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien
+                            nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa
+                            fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet
+                            ultrices purusrfed
+                            aliquet. There are many variations of passages of available but the
+                            majority have suffered.</p>
+                        <a href="#" class="avivon__btn">
+                            get started <span class="fontello icon-angle-double-right"></span>
+                        </a>
+                    </div><!-- end avivon-heading -->
+                </div><!-- end col-md-6 -->
+                <div class="col-md-6">
+                    <div class="think-column-box think-column-box2 clearfix">
+                        <div class="think-boxed think--boxed boxed-bg-3"></div><!-- end think-boxed -->
+                        <div class="think-boxed think--boxed boxed-bg-4"></div><!-- end think-boxed -->
+                    </div><!-- end think-column -->
+                </div><!-- end col-md-6 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end think-fluid -->
+</section><!-- end think-area -->
+<!--================================
+         END THINK AREA
+=================================-->
+
+<!--================================
+           START FUNFACT AREA
+=================================-->
+<section class="funfact-area responsive-content parallax-area area-padding text-center">
+    <div class="funfact-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 primary-padding-2">
+                    <div class="avivon-heading">
+                        <h2 class="avivon__title seven__title">numbers speak</h2>
+                    </div><!-- end avivon-heading -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 fact-border fun-countdown">
+                    <div class="funfact-shared ">
+                        <div class="fun__icon">
+                            <span class="fontello icon-wallet"></span>
+                        </div><!-- end team__img-->
+                        <div class="fun__fact">
+                            <span class="counter">870</span>
+                        </div><!-- end fun__fact -->
+                        <div class="fun__desc">
+                            <span class="team__title-span">businesses chooses</span><br>
+                            <span class="team__title-span">avivon agency</span>
+                        </div><!-- end fun__desc -->
+                    </div><!-- end funfact-shared -->
+                </div><!-- end col-md-4 -->
+                <div class="col-md-4 col-sm-6 col-xs-12 fact-border fun-countdown">
+                    <div class="funfact-shared">
+                        <div class="fun__icon">
+                            <span class="fontello icon-jigsaw"></span>
+                        </div><!-- end team__img-->
+                        <div class="fun__fact">
+                            <span class="counter">970</span>
+                        </div><!-- end fun__fact -->
+                        <div class="fun__desc">
+                            <span class="team__title-span">projects are</span><br>
+                            <span class="team__title-span">completed by avivon</span>
+                        </div><!-- end fun__desc -->
+                    </div><!-- end funfact-shared -->
+                </div><!-- end col-md-4 -->
+                <div class="col-md-4 col-sm-6 col-xs-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-3 col-xs-offset-0 fun-countdown">
+                    <div class="funfact-shared rpl-content">
+                        <div class="fun__icon">
+                            <span class="fontello icon-moneyhand"></span>
+                        </div><!-- end team__img-->
+                        <div class="fun__fact">
+                            <span class="counter">420</span>
+                        </div><!-- end fun__fact -->
+                        <div class="fun__desc">
+                            <span class="team__title-span">customers are satisfied</span><br>
+                            <span class="team__title-span">with our services</span>
+                        </div><!-- end fun__desc -->
+                    </div><!-- end funfact-shared -->
+                </div><!-- end col-md-4 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end funfact-fluid -->
+</section><!-- end funfact-area -->
+<!--================================
+             END FUNFACT AREA
+=================================-->
+
+<!--================================
+        START TEAM AREA
+=================================-->
+<section class="team-area responsive-content avivon-pt text-center">
+    <div class="team-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 primary-padding-3">
+                    <div class="avivon-heading">
+                        <h2 class="avivon__title five__title">team members</h2>
+                    </div><!-- end avivon-heading -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+            <div class="row team-content">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-same">
+                        <div class="team__img mb-30px">
+                            <img src="images/team1.jpg" alt="team image">
+                            <div class="team__img-links">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div><!-- end team__img-links -->
+                        </div><!-- end team__img-->
+                        <div class="team__title">
+                            <h3 class="team__title-title">kevin martin</h3>
+                            <span class="team__title-span">developer</span>
+                        </div><!-- end choose__title -->
+                    </div><!-- end team-same -->
+                </div><!-- end col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-same">
+                        <div class="team__img mb-30px">
+                            <img src="images/team2.jpg" alt="team image">
+                            <div class="team__img-links">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div><!-- end team__img-links -->
+                        </div><!-- end team__img-->
+                        <div class="team__title">
+                            <h3 class="team__title-title">jessica brown</h3>
+                            <span class="team__title-span">designer</span>
+                        </div><!-- end choose__title -->
+                    </div><!-- end team-same -->
+                </div><!-- end col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-same">
+                        <div class="team__img mb-30px">
+                            <img src="images/team3.jpg" alt="team image">
+                            <div class="team__img-links">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div><!-- end team__img-links -->
+                        </div><!-- end team__img-->
+                        <div class="team__title">
+                            <h3 class="team__title-title">mike hardson</h3>
+                            <span class="team__title-span">photographer</span>
+                        </div><!-- end choose__title -->
+                    </div><!-- end team-same -->
+                </div><!-- end col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-same rpl-content">
+                        <div class="team__img mb-30px">
+                            <img src="images/team4.jpg" alt="team image">
+                            <div class="team__img-links">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div><!-- end team__img-links -->
+                        </div><!-- end team__img-->
+                        <div class="team__title">
+                            <h3 class="team__title-title">camila rose</h3>
+                            <span class="team__title-span">manager</span>
+                        </div><!-- end choose__title -->
+                    </div><!-- end team-same -->
+                </div><!-- end col-md-3 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end team-fluid -->
+</section><!-- end team-area -->
+<!--================================
+       END TEAM AREA
+=================================-->
+
+<!--================================
+        START TRUSTED AREA
+=================================-->
+<section class="trusted-area blockquote-area area-padding text-center">
+    <div class="trusted-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trusted-content quote-slide avivon-pt">
+                        <div class="ts-item">
+                            <div class="trusted__icon mb-50px">
+                                <span class="block__symbol">“</span>
+                            </div><!-- end trusted__icon -->
+                            <div class="trusted__title">
+                                <h2 class="trusted__title-title">
+                                    “this is due to their excellent service, competitive
+                                    pricing and customer support.
+                                    It’s throughly refresing to get such a personal touch.”
+                                </h2>
+                                <p class="trusted__desc-desc mt-35px"><span>shirley smith </span>/ avivon founder</p>
+                            </div><!-- end trusted__title -->
+                        </div><!-- end ts-item -->
+                        <div class="ts-item">
+                            <div class="trusted__icon mb-50px">
+                                <span class="block__symbol">“</span>
+                            </div><!-- end trusted__icon -->
+                            <div class="trusted__title">
+                                <h2 class="trusted__title-title">
+                                    “there are many variations of passages of lorem ispsum available but the majority
+                                    have suffered alteration don't look even slightly believable.”
+                                </h2>
+                                <p class="trusted__desc-desc mt-35px"><span>shirley smith </span>/ avivon founder</p>
+                            </div><!-- end trusted__title -->
+                        </div><!-- end ts-item -->
+                        <div class="ts-item">
+                            <div class="trusted__icon mb-50px">
+                                <span class="block__symbol">“</span>
+                            </div><!-- end trusted__icon -->
+                            <div class="trusted__title">
+                                <h2 class="trusted__title-title">
+                                    “there are many variations of passages of lorem ispsum available but the majority
+                                    have suffered alteration don't look even slightly believable.”
+                                </h2>
+                                <p class="trusted__desc-desc mt-35px"><span>shirley smith </span>/ avivon founder</p>
+                            </div><!-- end trusted__title -->
+                        </div><!-- end ts-item -->
+                    </div><!-- end trusted-content -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end trusted-fluid -->
+</section><!-- end trusted-area -->
+<!--================================
+        END TRUSTED AREA
+=================================-->
+
+<!--================================
+         START OFFER AREA
+=================================-->
+<section class="offer-area responsive-content offer--area theme-bg-gray">
+    <div class="offer-fluid">
+        <div class="container-fluid">
+            <div class="row offer-content">
+                <div class="col-md-6 col-sm-6 col-xs-12 no-padding-lr">
+                    <div class="offer-quote"></div><!-- end offer-quote -->
+                </div><!-- end col-md-6 -->
+                <div class="col-md-6 col-sm-6 col-xs-12 offer-list-box">
+                    <div class="offer-list">
+                        <div class="avivon-heading focus-title mb-80px">
+                            <h2 class="avivon__title">
+                                a focused team with a <br>
+                                specialized skills</h2>
+                        </div><!-- end avivon-heading -->
+                        <div class="offer-item">
+                            <div class="same-offer">
+                                <div class="offer__title">
+                                    <span class="fontello icon-human-resources offer-icon"></span>
+                                    <h3>about avivon consultancy</h3>
+                                    <p class="offer__desc mt-30px mb-40px">
+                                        tincidunt elit magnis nulla facilisis sagittis m aecenas. sapien nunc amet
+                                        ultrices,
+                                        doloresi ipsum velit purus aliquet, massa fringilla leo orci.
+                                        lorem ipsum dolors sit amet elit magni amet ultrices purus aliquet.
+                                    </p>
+                                    <h3 class="quote__sign">Jessica Brown</h3>
+                                    <span class="quote__span">founder of avivon</span>
+                                </div><!-- end offer__title -->
+                            </div><!-- end same-offer -->
+                        </div><!-- end offer-item -->
+                    </div><!-- end offer-list -->
+                </div><!-- end col-md-6 -->
+            </div><!-- end row -->
+        </div><!-- container-fluid -->
+    </div><!-- end offer-fluid -->
+</section><!-- end offer-area -->
+<!--================================
+          END OFFER AREA
+=================================-->
+
+<!--================================
+       START CLIENT LOGO AREA
+=================================-->
+<section class="client-logo-area area-padding text-center">
+    <div class="client-logo-fluid">
+        <div class="container">
+            <div class="row client-logo-box">
+                <div class="col-md-12">
+                    <div class="client-logo">
+                        <div class="client-logo-item">
+                            <img class="client__logo-brand" src="images/e-logo.png" alt="client brand logo">
+                        </div><!-- end client-logo-item -->
+                        <div class="client-logo-item">
+                            <img class="client__logo-brand" src="images/e-logo.png" alt="client brand logo">
+                        </div><!-- end client-logo-item -->
+                        <div class="client-logo-item">
+                            <img class="client__logo-brand" src="images/e-logo.png" alt="client brand logo">
+                        </div><!-- end client-logo-item -->
+                        <div class="client-logo-item">
+                            <img class="client__logo-brand" src="images/e-logo.png" alt="client brand logo">
+                        </div><!-- end client-logo-item -->
+                        <div class="client-logo-item">
+                            <img class="client__logo-brand" src="images/e-logo.png" alt="client brand logo">
+                        </div><!-- end client-logo-item -->
+                    </div><!-- end client-logo -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end client-logo-fluid -->
+</section><!-- end client-logo-area -->
+<!--================================
+          END CLIENT LOGO AREA
+=================================-->
+
+<!--================================
+            START MEET AREA
+=================================-->
+<section class="meet-area area-padding theme-bg-main">
+    <div class="meet-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="meet-heading text-center">
+                        <h2 class="avivon__title">meet avivon consultancy</h2>
+                        <p class="avivon__desc">
+                            We know the importance of delivering the best <br>
+                            customer experience.</p>
+                        <a href="contact.html" class="meet__btn">get started
+                            <span class="fontello icon-angle-double-right"></span>
+                        </a>
+                    </div><!-- end meet-heading -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end meet-fluid -->
+</section><!-- end meet-area -->
+<!--================================
+           END MEET AREA
+=================================-->
+
+<!--================================
+        START FOOTER AREA
+=================================-->
+<section class="footer-area responsive-content theme-bg-dark">
+    <div class="footer-fluid">
+        <div class="container">
+            <div class="row footer-list">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-shared rpd-content">
+                        <div class="footer__title">
+                            <h3 class="footer__title-title">our address</h3>
+                        </div><!-- end footer__title -->
+                        <div class="ftp__links">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fas fa-phone-square"></i> 888 999 0000</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:needhelp@avivon.com"><i class="fas fa-envelope"></i>
+                                        needhelp@avivon.com</a>
+                                </li>
+                                <li>
+                                    <p class="add__para-desc"><i class="fas fa-map"></i> 855 road, broklyn street,</p>
+                                    <p class="add__para-desc">new york 600</p>
+                                </li>
+                            </ul>
+                        </div><!-- end ftp__links -->
+                    </div><!-- end footer-shared -->
+                </div><!-- end col-md-3 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-shared">
+                        <div class="footer__title">
+                            <h3 class="footer__title-title">extra links</h3>
+                        </div><!-- end footer__title -->
+                        <div class="ftp__links menu__links clearfix">
+                            <ul class="ftp__menu-links pull-left">
+                                <li><a href="about-us1.html">about</a></li>
+                                <li><a href="#">careers</a></li>
+                                <li><a href="#">our team</a></li>
+                                <li><a href="#">approach</a></li>
+                                <li><a href="cases1.html">case studies</a></li>
+                            </ul>
+                            <ul class="ftp__menu-links ftp__menu--links pull-left">
+                                <li><a href="service1.html">services</a></li>
+                                <li><a href="#">locations</a></li>
+                                <li><a href="#">clients</a></li>
+                                <li><a href="#">help</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </div><!-- end ftp__links -->
+                    </div><!-- end footer-shared -->
+                </div><!-- end col-md-4 -->
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <div class="footer-shared">
+                        <div class="footer__title">
+                            <h3 class="footer__title-title">sign up for email alerts</h3>
+                        </div><!-- end footer__title -->
+                        <div class="ftp__links">
+                            <div class="ftp__form-subs">
+                                <p class="ftp__links-desc__desc">subscribe for latest articles and resources</p>
+                                <form action="#">
+                                    <input type="email" placeholder="enter email">
+                                    <button class="email__subscriber-btn"><i class="fas fa-envelope"></i></button>
+                                </form>
+                            </div><!-- end ftp__form-subs -->
+                        </div><!-- end ftp__links -->
+                    </div><!-- end footer-shared -->
+                </div><!-- end col-md-5 -->
+            </div><!-- end row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-shared">
+                        <div class="col-md-8 no-padding-lr">
+                            <p class="copy__desc">&copy;copyright 2018 by <a href="mailto:layerdrops@gmail.com">Layerdrops.com</a></p>
+                        </div><!-- end col-md-8 -->
+                        <div class="col-md-4 text-right no-padding-lr">
+                            <ul class="copy__links">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div><!-- end col-md-4 -->
+                    </div><!-- end copyright-shared -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- container -->
+    </div><!-- end footer-fluid -->
+</section><!-- end footer-area -->
+<!--================================
+          END FOOTER AREA
+=================================-->
+
+<!-- start scroll top --->
+<div id="scroll-top">
+    <i class="fas fa-arrow-up" title="Go top"></i>
+</div>
+<!-- end scroll top -->
+
+<!--========= theme js files =============-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/magnificpopup.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+    // counter up
+    $('.counter').counterUp({
+        delay: 50,
+        time: 5000
+    });
+
+</script>
+</body>
+</html>
